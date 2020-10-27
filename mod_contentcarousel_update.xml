@@ -6,7 +6,7 @@
 		<type>module</type>
 		<version>1.0.1</version>
 		<downloads>
-			<downloadurl type="full" format="zip">http://www.example.com/mod_contentcarousel_101.zip</downloadurl>
+			<downloadurl type="full" format="zip">https://github.com/konalexiou/joomla3.x_mod_contentcarousel/releases/download/1.0.0/mod_contentcarousel_101.zip</downloadurl>
 		</downloads>
 		<maintainer>Konstantinos Alexiou</maintainer>
 		<maintainerurl>https://github.com/konalexiou/joomla3.x_mod_contentcarousel</maintainerurl>

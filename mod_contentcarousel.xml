@@ -31,6 +31,6 @@
         </fields>
     </config>
     <updateservers>
-	     <server type="extension" name="Content Carousel" priority="1">https://www.example.com/mod_contentcarousel_update.xml</server>
+	     <server type="extension" name="Content Carousel" priority="1">https://raw.githubusercontent.com/konalexiou/joomla3.x_mod_contentcarousel/main/mod_contentcarousel_update.xml</server>
     </updateservers>
 </extension>
