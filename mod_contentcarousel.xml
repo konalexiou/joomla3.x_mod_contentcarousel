@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="module" version="3.1.0" client="site" method="upgrade">
+    <name>Content Carousel</name>
+    <author>Konstantinos Alexiou</author>
+    <version>1.0.0</version>
+    <description>A simple content carousel module.</description>
+    <files>
+        <filename>mod_contentcarousel.xml</filename>
+        <filename module="mod_contentcarousel">mod_contentcarousel.php</filename>
+        <filename>index.html</filename>
+        <filename>helper.php</filename>
+        <folder>css</folder>
+        <!-- <filename>css/style.css</filename>
+        <filename>css/index.html</filename> -->
+        <folder>js</folder>
+        <!-- <filename>js/jquery.easing.js</filename>
+        <filename>js/jquery.js</filename>
+        <filename>js/script.js</filename>
+        <filename>js/index.html</filename> -->
+        <folder>tmpl</folder>
+        <!-- <filename>tmpl/default.php</filename>
+        <filename>tmpl/index.html</filename> -->
+        <folder>images</folder>
+    </files>
+    <config>
+        <fields name="params">
+          <fieldset name="basic">
+            <field name="catid" type="number" default="" label="Type category id" />
+            <field name="limit" type="number" default="" label="Number of articles" />
+          </fieldset>
+        </fields>
+    </config>
+    <updateservers>
+	     <server type="extension" name="Content Carousel" priority="1">https://www.example.com/mod_contentcarousel_update.xml</server>
+    </updateservers>
+</extension>
